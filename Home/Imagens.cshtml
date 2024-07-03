@@ -1,0 +1,500 @@
+﻿@{
+    Layout = null;
+}
+<style>
+
+    .center {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #ros {
+        width: 30px;
+        height: 30px;
+        background-color: #d60b52;
+        margin-left: 30px;
+        margin-top: -60px;
+    }
+
+    #txt {
+        color: red;
+    }
+
+    a {
+        color: red;
+    }
+
+    #myImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+</style>
+
+<div class="tudo" style="width:100%;">
+    @if (ViewBag.id == 1)
+    {
+
+        <div class="center">
+            <div class="container-fluid gedf-wrapper">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card gedf-card" id="img" style="width:300px; height:110px; border: 0px solid;padding: 18px; box-shadow: 2px 2px #A9A9A9;">
+                            <div class="card-block block-1">
+                                <h4 class="card-title">Treinamentos</h4>
+                                <p class="card-text" style="color: #696969; margin-right:-38px;">Bem vindo a Vivo 2021</p>
+                                <a href="#" title="Informações" data-value="1">@Html.ActionLink("Mais informações", "ModuloI", "Home")</a>
+                                <div id="ros"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm">
+                        <div class="card gedf-card" id="img" style="width:300px; height:110px; border: 0px solid;padding: 18px; box-shadow: 2px 2px #A9A9A9;">
+                            <div class="card-block block-1">
+                                <h4 class="card-title">Treinamentos</h4>
+                                <p class="card-text" style=" color: #696969; margin-right:-31%;">
+                                    Bem Vindo ao Vivo Empresas
+                                </p>
+                                <a href="#" title="Informações" style="color:red;" data-value="1">@Html.ActionLink("Mais informações", "empresas", "Home")</a>
+                                <div id="ros"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm">
+                        <div class="card gedf-card" id="img" style="width:300px; height:110px; border: 0px solid;padding: 18px; box-shadow: 2px 2px #A9A9A9;">
+                            <div class="card-block block-1">
+                                <h4 class="card-title">Treinamentos</h4>
+                                <p class="card-text" style="color: #696969; margin-right: -20px;">Produtos Fixa-Móvel</p>
+                                <a href="#" title="Informações" style="color:red;" data-value="1">@Html.ActionLink("Mais informações", "ProdutosFixa", "Home")</a>
+                                <div id="ros"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="center">
+            <div class="container-fluid gedf-wrapper">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card gedf-card" id="img" style="width:300px; height:110px; border: 0px solid;padding: 18px; box-shadow: 2px 2px #A9A9A9;">
+                            <div class="card-block block-1">
+                                <h4 class="card-title">Treinamentos</h4>
+                                <p class="card-text" style="color: #696969; margin-left: -54px;">FaturaV</p>
+                                <a href="#" title="Informações" data-value="1">@Html.ActionLink("Mais informações", "Faturas", "Home")</a>
+                                <div id="ros"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm">
+                        <div class="card gedf-card" id="img" style="width:300px; height:110px; border: 0px solid;padding: 18px; box-shadow: 2px 2px #A9A9A9;">
+                            <div class="card-block block-1">
+                                <h4 class="card-title">Treinamentos</h4>
+                                <p class="card-text" style="color: #696969;">VivoTransforma</p>
+                                <a href="#" title="Informações" data-value="1">@Html.ActionLink("Mais informações", "VivoTransforma", "Home")</a>
+                                <div id="ros"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm">
+                        <div class="card gedf-card" id="img" style="width:300px; height:110px; border: 0px solid;padding: 18px; box-shadow: 2px 2px #A9A9A9;">
+                            <div class="card-block block-1">
+                                <h4 class="card-title">Treinamentos</h4>
+                                <p class="card-text" style="margin-left:12%;">Contestação - Processo</p>
+                                <a href="#" title="Informações" data-value="1">@Html.ActionLink("Mais informações", "ContestacaoProcesso", "Home")</a>
+                                <div id="ros"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="center">
+            <div class="container-fluid gedf-wrapper">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card gedf-card" id="img" style="width:300px; height:110px; border: 0px solid;padding: 18px; box-shadow: 3px 2px #A9A9A9;">
+                            <div class="card-block block-1">
+                                <h4 class="card-title">Treinamentos</h4>
+                                <p class="card-text" style="color:#696969; margin-left:-15%;">Qualidade</p>
+                                <a href="#" title="Informações" data-value="1">@Html.ActionLink("Mais informações", "Qualidade_new", "Home")</a>
+                                <div id="ros"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm">
+                        <div class="card gedf-card" id="img" style="width:300px; height:110px; border: 0px solid;padding: 18px; box-shadow: 2px 2px #A9A9A9;">
+                            <div class="card-block block-1">
+                                <h4 class="card-title">Treinamentos</h4>
+                                <p class="card-text" style="color: #696969; margin-left: -22% ">
+                                    LGPD
+                                </p>
+                                <a href="#" title="Informações" data-value="1">@Html.ActionLink("Mais informações", "LGPD", "Home")</a>
+                                <div id="ros"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm">
+                        <div class="card gedf-card" id="img" style="width:300px; height:110px; border: 0px solid;padding: 18px; box-shadow: 2px 2px #A9A9A9;">
+                            <div class="card-block block-1">
+                                <h4 class="card-title">Treinamentos</h4>
+                                <p class="card-text" style="margin-left: 5% ">
+                                    Política  B2B
+
+                                </p>
+                                <a href="#" title="Informações" data-value="1">@Html.ActionLink("Mais informações", "ParcelamentoB2B", "Home")</a>
+                                <div id="ros"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm">
+                        <div class="card gedf-card" id="img" style="width:300px; height:110px; border: 0px solid;padding: 18px; margin-left:50%; box-shadow: 2px 2px #A9A9A9; ">
+                            <div class="card-block block-1">
+                                <h4 class="card-title">Treinamentos</h4>
+                                <p class="card-text" style="margin-left:6%;">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contestacão Passo a Passo
+
+                                </p>
+                                <a href="#" title="Informações" data-value="1">@Html.ActionLink("Mais informações", "Contestacao", "Home")</a>
+                                <div id="ros"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm">
+                        <div class="card gedf-card" id="img" style="width:300px; height:110px; border: 0px solid;padding: 18px; box-shadow: 2px 2px #A9A9A9;">
+                            <div class="card-block block-1">
+                                <h4 class="card-title">Treinamentos</h4>
+                                <p class="card-text" style="margin-left:6%;">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contestação-Processo
+
+                                </p>
+                                <a href="#" title="Informações" data-value="1">@Html.ActionLink("Mais informações", "ContestacaoProcesso", "Home")</a>
+                                <div id="ros"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="myModal">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div id="conteudoModal"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+    }
+    @if (ViewBag.id == 10)
+    {
+        <style>
+
+            .center {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+
+            #ros {
+                width: 30px;
+                height: 30px;
+                background-color: rgb(214, 11, 82);
+                margin-left: -10px;
+                margin-top: -40px;
+            }
+
+            #txt {
+                color: red;
+            }
+
+            a {
+                color: red;
+            }
+
+            p {
+                font-size: 19px;
+                text-align: center;
+                font-family: Arial;
+            }
+
+            #row {
+                padding: 20px;
+            }
+
+            ul {
+                display: flex;
+                justify-content: center;
+            }
+
+                ul li {
+                    text-decoration: none;
+                    display: inline-block;
+                }
+
+            li {
+                padding: 30px;
+            }
+        </style>
+        <p>
+            Políticas Full Time
+        </p>
+        <ul>
+            <li>
+                <div id="row" style=" border: 0px solid;padding: 18px; box-shadow: 2px 2px #888888; height:120px; width:300px;">
+                    <h4 class="card-title" style="margin-left:40px;">Política de Recrutamento e Seleção Full Time</h4>
+                    <a href="#" title="Informações" style="color:red; margin-left:40px;" data-value="1">@Html.ActionLink("Mais informações", "Selecao", "Home")</a>
+                    <div id="ros"></div>
+                </div>
+            </li>
+
+            <li>
+                <div id="row" style=" border: 0px solid;padding: 18px; box-shadow: 2px 2px #888888; height:120px; width:300px;">
+                    <h4 class="card-title" style="margin-left:40px;">Política de Treinamento e Desenvolvimento Full Time</h4>
+                    <a href="#" title="Informações" style="color:red; margin-left:40px;" data-value="1" ;>@Html.ActionLink("Mais informações", "Desenvolvimento", "Home")</a>
+                    <div id="ros"></div>
+                </div>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+        <div class="modal fade" id="myModal">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div id="conteudoModal"></div>
+                </div>
+            </div>
+
+        </div>
+
+    }
+    @if (ViewBag.id == 2)
+    {
+        <style>
+
+            .center {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+
+            #ros {
+                width: 30px;
+                height: 30px;
+                background-color: rgb(214, 11, 82);
+                margin-left: -10px;
+                margin-top: -40px;
+            }
+
+            #txt {
+                color: red;
+            }
+
+            a {
+                color: red;
+            }
+
+            p {
+                font-size: 19px;
+                text-align: center;
+                font-family: Arial;
+            }
+
+            #row {
+                padding: 20px;
+            }
+
+            ul {
+                display: flex;
+                justify-content: center;
+            }
+
+                ul li {
+                    text-decoration: none;
+                    display: inline-block;
+                }
+
+            li {
+                padding: 30px;
+            }
+        </style>
+        <p>
+            Portfolio de Produtos
+        </p>
+        <ul>
+            <li>
+                <div id="row" style=" border: 0px solid;padding: 18px; box-shadow: 2px 2px #888888; height:90px; width:300px;">
+                    <h4 class="card-title" style="margin-left:40px;">Produtos</h4>
+                    <a href="#" title="Informações" style="color:red; margin-left:40px;" data-value="1" ;>@Html.ActionLink("Mais informações", "Produtos", "Home")</a>
+                    <div id="ros"></div>
+                </div>
+            </li>
+
+            <li>
+                <div id="row" style=" border: 0px solid;padding: 18px; box-shadow: 2px 2px #888888; height:90px; width:300px;">
+                    <h4 class="card-title" style="margin-left:40px;">Vale Pedágio</h4>
+                    <a href="#" title="Informações" style="color:red; margin-left:40px;" data-value="1" ;>@Html.ActionLink("Mais informações", "ValePedagio", "Home")</a>
+                    <div id="ros"></div>
+                </div>
+            </li>
+        </ul>
+
+
+
+
+
+    }
+    @if (ViewBag.id == 3)
+    {
+        <img id="myImg" src="~/Imagens/Qualidade/Qualidade Erros que Zeram sua Monitoria.jpg" style="width:190%;max-width:960px;text-align:center">
+    }
+    @if (ViewBag.id == 4)
+    {
+        <div class="img">
+            <img id="myImg" src="~/Imagens/9/proibid.png" style="width:150%;max-width:900px;text-align:center">
+        </div>
+    }
+    @if (ViewBag.id == 5)
+    {
+        <img id="myImg" src="~/Imagens/Politica/Politica de Desconto e Parcelamento.jpg" style="width:100%;max-width:900px;text-align:center">
+    }
+
+    @if (ViewBag.id == 7)
+    {
+        <style>
+            .t {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .center {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+
+            #ros {
+                width: 30px;
+                height: 30px;
+                background-color: rgb(214, 11, 82);
+                margin-left: 10px;
+                margin-top: -37px;
+            }
+
+            #txt {
+                color: red;
+            }
+
+            a {
+                color: red;
+            }
+
+            p {
+                font-size: 19px;
+                text-align: center;
+                font-family: Arial;
+            }
+        </style>
+
+        <div class="t">
+            <div class="row">
+                <div class="center">
+                    <div class="col-sm" style="margin-top: 70px; height:90px;">
+                        <div class="card gedf-card" id="img" style="width:300px; border: 0px solid;padding: 10px; box-shadow: 2px 2px #888888; height:90px;">
+                            <h4 class="card-title" style="margin-left:30px;">Voucher Mc Donad’s</h4>
+                            <a href="#" title="Informações" data-value="1">@Html.ActionLink("Mais informações", "Vouchermc", "Home")</a>
+                            <div id="ros"></div>
+                        </div>
+
+
+                        <div class="col-sm" style="margin-top: 110px;border: 0px solid;padding: 10px; box-shadow: 2px 2px #888888; height:90px;">
+                            <h4 class="card-title">Voucher Abastece</h4>
+                            <a href="#" title="Informações" style="color:red;" data-value="1">@Html.ActionLink("Mais informações", "Vouchermecanica", "Home")</a>
+                            <div id="ros"></div>
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+                    <div class="center">
+                        <div class="container-fluid gedf-wrapper">
+
+                            <div class="col-sm">
+
+                                <div class="card-block block-1">
+                                    <img src="~/Imagens/imgV/img1.png" style="width:70%;" />
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm">
+
+                                <div class="card-block block-1">
+                                    <img src="~/Imagens/imgV/img2.png" style="width:70%;" />
+                                </div>
+
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    }
+    @if (ViewBag.id == 8)
+    {
+        <img id="myImg" src="~/Imagens/8/Parabens.jpg" style="width:100%;max-width:900px;text-align:center">
+    }
+
+</div>

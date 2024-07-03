@@ -1,0 +1,243 @@
+﻿@{
+    Layout = null;
+}
+    <div class="tudo" style="width:100%;">
+        @if (ViewBag.id == 3)
+        {
+            <style>
+                h2{
+                    text-align:center;
+
+                }
+                .center {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                }
+
+                #ros {
+                    width: 30px;
+                    height: 30px;
+                    background-color: rgb(214, 11, 82);
+                    margin-left: -10px;
+                    margin-top: -40px;
+                }
+
+                #txt {
+                    color: red;
+                }
+
+                a {
+                    color: red;
+                }
+
+                p {
+                    font-size: 19px;
+                    text-align: center;
+                    font-family: Arial;
+                }
+
+                #row {
+                    padding: 20px;
+                }
+
+                ul {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                    ul li {
+                        text-decoration: none;
+                        display: inline-block;
+                    }
+
+                li {
+                    padding: 30px;
+                }
+            </style>
+
+            <h2>
+                Qualidade
+            </h2>
+            <ul>
+                <li>
+                    <div id="row" style=" border: 0px solid;padding: 18px; box-shadow: 2px 2px #888888; height:90px; width:300px;">
+                        <h4 class="card-title" style="margin-left:40px;">
+                            Check List
+                        </h4>
+                        <a href="~/check/check_atualizado.png" title="Informações" style="color:red; margin-left:40px;" data-value="1">Mais informações</a>
+                        <div id="ros"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div id="row" style=" border: 0px solid;padding: 18px; box-shadow: 2px 2px #888888; height:90px; width:300px;">
+                        <h4 class="card-title" style="margin-left:40px;">
+                            Aproximação/cliente
+                        </h4>
+                        <a href="~/check/Aproximação com o cliente.htm" title="Informações" style="color:red; margin-left:40px;" data-value="1">Mais informações</a>
+                        <div id="ros"></div>
+                    </div>
+                </li>
+
+                @*<li>
+            <div id="row" style=" border: 0px solid;padding: 18px; box-shadow: 2px 2px #888888; height:90px; width:300px;">
+                <h4 class="card-title" style="margin-left:40px;">
+                    Check List Recado
+
+                </h4>
+                <a href="~/new_table/table3.html" title="Informações" style="color:red; margin-left:40px;" data-value="1">Mais informações</a>
+                <div id="ros"></div>
+
+            </div>
+        </li>*@
+
+
+
+            </ul>
+            <ul>
+                <li>
+                    <div id="row" style=" border: 0px solid;padding: 18px; box-shadow: 2px 2px #888888; height:90px; width:300px;">
+                        <h4 class="card-title" style="margin-left:40px;">
+                            Book Check List
+
+                        </h4>
+                        <a href="#" title="Informações" style="color:red; margin-left:40px;" data-value="6" ;>@Html.ActionLink("Mais informações", "Checkbook", "Home")</a>
+                        <div id="ros"></div>
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div id="row" style=" border: 0px solid;padding: 18px; box-shadow: 2px 2px #888888; height:90px; width:300px;">
+                        <h4 class="card-title" style="margin-left:40px;">
+                            Check List Recado
+
+                        </h4>
+                        <a href="~/check/check_recado.png" title="Informações" style="color:red; margin-left:40px;" data-value="6" ;>Mais informações</a>
+                        <div id="ros"></div>
+
+                    </div>
+                </li>
+
+            </ul>
+
+        }
+
+
+        @if (ViewBag.id == 5)
+        {
+            <style>
+                .center {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                }
+
+                #ros {
+                    width: 30px;
+                    height: 30px;
+                    background-color: rgb(214, 11, 82);
+                    margin-left: -10px;
+                    margin-top: -40px;
+                }
+
+                #txt {
+                    color: red;
+                }
+
+                a {
+                    color: red;
+                }
+
+                p {
+                    font-size: 19px;
+                    text-align: center;
+                    font-family: Arial;
+                }
+
+                #row {
+                    padding: 20px;
+                }
+
+                ul {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                    ul li {
+                        text-decoration: none;
+                        display: inline-block;
+                    }
+
+                li {
+                    padding: 30px;
+                }
+            </style>
+
+            <ul>
+                <li>
+                    <div id="row" style=" border: 0px solid;padding: 18px; box-shadow: 2px 2px #888888; height:90px; width:300px;">
+                        <h4 class="card-title" style="margin-left:40px;">
+                            Alçadas
+                        </h4>
+                        
+                        <a href="#" title="Informações" style="color:red; margin-left:40px;" data-value="6" ;>@Html.ActionLink("Mais informações", "Alcadas", "Home")</a>
+                        <div id="ros"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div id="row" style=" border: 0px solid;padding: 18px; box-shadow: 2px 2px #888888; height:90px; width:300px;">
+                        <h4 class="card-title" style="margin-left:40px;">
+                            Encargos
+                        </h4>
+          
+                        <a href="#" title="Informações" style="color:red; margin-left:40px;" data-value="6" ;>@Html.ActionLink("Mais informações", "Encargos", "Home")</a>
+                        <div id="ros"></div>
+                    </div>
+                </li>
+
+            </ul>
+
+
+            <ul>
+                <li>
+                    <div id="row" style=" border: 0px solid;padding: 18px; box-shadow: 2px 2px #888888; height:90px; width:300px;">
+                        <h4 class="card-title" style="margin-left:40px;">
+                            Politica_COVID
+                        </h4>
+                        <a href="#" title="Informações" style="color:red; margin-left:40px;" data-value="6" ;>@Html.ActionLink("Mais informações", "Politica_COVID", "Home")</a>
+                       
+                        <div id="ros"></div>
+                    </div>
+                </li>
+
+
+
+
+
+
+
+
+
+
+
+                <li>
+                    <div id="row" style=" padding: 18px;  height:90px; width:300px;">
+                        <h4 class="card-title" style="margin-left:40px;">
+                        
+                        </h4>
+                        
+                        
+                    </div>
+                </li>
+
+            </ul>
+
+
+
+
+
+        }
