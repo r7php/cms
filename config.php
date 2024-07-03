@@ -3,7 +3,10 @@ require 'environment.php';
 
 $config = array();
 define("BASE_URL","localhost:8081/feed");
+require __DIR__ . '/../vendor/autoload.php';
 
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
+$dotenv->load();
 // if(ENVIRONMENT == 'development'){
 // 	define("BASE_URL","http://localhost/mvc(2)/");
 // 	$config['dbname'] = 'estrutura_mvc';
@@ -22,11 +25,12 @@ define("BASE_URL","localhost:8081/feed");
 
 global $db;
 
+	$severName = getenv('DB_HOST');
+	$DB_Name = getenv('DB_DATABASE');
+	$DB_User = getenv('DB_USERNAME');
+	$DB_Password = getenv('DB_PASSWORD');
 
-	$severName = "172.22.4.108";
-	$DB_User  =  "linkedserver";
-	$DB_Password = "Planejamento2022@@";
-	$DB_Name = "BD_PROJETO_FIFA";
+	
 
 	$db = new PDO("sqlsrv:Server=$severName;Database=$DB_Name", "$DB_User", "$DB_Password");
 
